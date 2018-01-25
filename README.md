@@ -9,6 +9,8 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+![Screenshot](/screenshots/screenshot-01.png?raw=true "Example with pending content label")
+
 ## Requirements
 
 * iOS 9+
