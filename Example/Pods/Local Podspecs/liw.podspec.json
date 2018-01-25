@@ -1,0 +1,22 @@
+{
+  "name": "liw",
+  "version": "0.1.0",
+  "summary": "A short description of liw.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/donedeal-Stephenw/liw",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "donedeal-Stephenw": "sfwalshappdev@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/donedeal-Stephenw/liw.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "liw/Classes/**/*"
+}

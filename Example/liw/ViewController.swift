@@ -7,18 +7,18 @@
 //
 
 import UIKit
+import liw
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBOutlet weak var pendingContentLabel: LIWPendingContentLabel!
+    
+    @IBAction func didTapReadyButton(sender: Any?) {
+        self.pendingContentLabel.update(with: "Sample Text")
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func didTapPendingButton(sneder: Any?) {
+        self.pendingContentLabel.state = LIWPendingContent.ContentState.pending
     }
-
 }
 

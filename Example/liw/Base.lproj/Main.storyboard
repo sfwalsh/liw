@@ -20,8 +20,41 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Example" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mHI-Af-LNt" customClass="LIWPendingContentLabel" customModule="liw">
+                                <rect key="frame" x="155" y="323" width="65" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ABf-Ek-W8d">
+                                <rect key="frame" x="166" y="396" width="43" height="30"/>
+                                <state key="normal" title="Ready"/>
+                                <connections>
+                                    <action selector="didTapReadyButtonWithSender:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="zWh-HB-FfM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0x3-Wy-mUt">
+                                <rect key="frame" x="159.5" y="478" width="56" height="30"/>
+                                <state key="normal" title="Pending"/>
+                                <connections>
+                                    <action selector="didTapPendingButtonWithSneder:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="83N-gm-tn7"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0x3-Wy-mUt" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="0uz-V5-PwG"/>
+                            <constraint firstItem="mHI-Af-LNt" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="6Wj-Io-eq7"/>
+                            <constraint firstItem="0x3-Wy-mUt" firstAttribute="top" secondItem="ABf-Ek-W8d" secondAttribute="bottom" constant="52" id="A7o-il-7px"/>
+                            <constraint firstItem="ABf-Ek-W8d" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="IBS-H4-YgN"/>
+                            <constraint firstItem="ABf-Ek-W8d" firstAttribute="top" secondItem="mHI-Af-LNt" secondAttribute="bottom" constant="52" id="LuR-iP-F42"/>
+                            <constraint firstItem="mHI-Af-LNt" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="kQ1-h7-SR1"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="pendingContentLabel" destination="mHI-Af-LNt" id="Fec-6U-cdA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
