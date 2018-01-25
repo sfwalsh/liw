@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		29A2EB0D147E4CBE898C8A0C /* Pods_liw_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_liw_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FD6DFDB1B7DA3BEC30719CF /* liw.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = liw.podspec; path = ../liw.podspec; sourceTree = "<group>"; };
+		2FD6DFDB1B7DA3BEC30719CF /* liw.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = liw.podspec; path = ../liw.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* liw_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = liw_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,11 +41,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7689316B61C0BB1EA44136E0 /* Pods-liw_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liw_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-liw_Tests/Pods-liw_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A9EF8C9B0A944D497585DD1D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A9EF8C9B0A944D497585DD1D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BB34253954948721CAC9400F /* Pods-liw_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liw_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-liw_Example/Pods-liw_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CF7781FE8086652D713DA6B8 /* Pods_liw_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_liw_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D16118D4953ADCCA68AEDC4B /* Pods-liw_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liw_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-liw_Tests/Pods-liw_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DE8B55DCFAE11E9FF5A8BF81 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DE8B55DCFAE11E9FF5A8BF81 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		ECB43B1D0014384343599477 /* Pods-liw_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liw_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-liw_Example/Pods-liw_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -527,6 +527,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = liw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -542,6 +543,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = liw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

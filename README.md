@@ -1,6 +1,6 @@
 # liw
 
-[![CI Status](http://img.shields.io/travis/donedeal-Stephenw/liw.svg?style=flat)](https://travis-ci.org/donedeal-Stephenw/liw)
+[![CI Status](http://img.shields.io/travis/sfwalsh/liw.svg?style=flat)](https://travis-ci.org/donedeal-Stephenw/liw)
 [![Version](https://img.shields.io/cocoapods/v/liw.svg?style=flat)](http://cocoapods.org/pods/liw)
 [![License](https://img.shields.io/cocoapods/l/liw.svg?style=flat)](http://cocoapods.org/pods/liw)
 [![Platform](https://img.shields.io/cocoapods/p/liw.svg?style=flat)](http://cocoapods.org/pods/liw)
@@ -10,6 +10,8 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+* iOS 9+
 
 ## Installation
 
@@ -22,7 +24,7 @@ pod 'liw'
 
 ## Author
 
-donedeal-Stephenw, sfwalshappdev@gmail.com
+sfwalsh, sfwalshappdev@gmail.com
 
 ## License
 

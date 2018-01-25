@@ -1,0 +1,6 @@
+framework module liw {
+  umbrella header "liw-umbrella.h"
+
+  export *
+  module * { export * }
+}
