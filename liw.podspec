@@ -19,8 +19,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 label in waiting - ui for displaying pending network content.
                        DESC
-
-                       spec.screenshots = [ 'https://github.com/sfwalsh/liw/screenshots/screenshot-01.png' ]
+                       
   s.homepage         = 'https://github.com/sfwalsh/liw'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sfwalsh' => 'sfwalshappdev@gmail.com' }
